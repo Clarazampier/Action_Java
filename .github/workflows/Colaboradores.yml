@@ -23,10 +23,10 @@ jobs:
         distribution: 'temurin'
     - name: Build do projeto
       run: |
-        cd gitActionJava/src
+        cd src
         javac -cp . Main.java
       
     - name: Execução do projeto
       run: |
-        cd gitActionJava/src
+        cd src
         java -cp . Main
